@@ -90,7 +90,7 @@ if ReplicatedStorage.IsMainGame.Value == true and ReplicatedStorage.IsLobby.Valu
             end
         end
 
-        task.wait(1)
+        task.wait()
 
     until Player.PlayerGui.Match.MatchFinish.MatchFinishFrame.EndOptions.PlayAgain.ButtonFrame.PlayAgainButton.Text == "Cancel Play Again"
 end
