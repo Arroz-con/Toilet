@@ -34,7 +34,7 @@ local function buyUnits()
     if canBuy == 0 then return end
     for _ = 1, canBuy, 1 do
         clickGuiButton(Player.PlayerGui.Lobby.SummonShopFrame.SummonMenu.RightMenu.BuyButtons.Summon10)
-        task.wait(1)
+        task.wait(5)
     end
 end
 
