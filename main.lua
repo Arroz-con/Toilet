@@ -48,9 +48,12 @@ local function autoSellSettings()
     local legendary = autoSellFrame.Legendary.OnAndOff
 
     if basic.Text == "Off" then clickGuiButton(basic) end
+    task.wait(1)
     if uncommon.Text == "Off" then clickGuiButton(uncommon) end
+    task.wait(1)
     if rare.Text == "Off" then clickGuiButton(rare) end
-    -- if epic.Text == "Off" then clickGuiButton(epic) end
+    task.wait(1)
+    if epic.Text == "Off" then clickGuiButton(epic) end
     -- if legendary.Text == "Off" then clickGuiButton(legendary) end
 end
 
