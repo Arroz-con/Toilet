@@ -10,9 +10,9 @@ local Character = Player.Character or Player.CharacterAdded:Wait()
 
 local function clickGuiButton(button)
     task.wait()
-    VIM:SendMouseButtonEvent(button.AbsolutePosition.X + 30, button.AbsolutePosition.Y + 30, 0, true, game, 1)
+    VIM:SendMouseButtonEvent(button.AbsolutePosition.X + 60, button.AbsolutePosition.Y + 60, 0, true, game, 1)
     task.wait()
-    VIM:SendMouseButtonEvent(button.AbsolutePosition.X + 30, button.AbsolutePosition.Y + 30, 0, false, game, 1)
+    VIM:SendMouseButtonEvent(button.AbsolutePosition.X + 60, button.AbsolutePosition.Y + 60, 0, false, game, 1)
     task.wait()
 end
 
