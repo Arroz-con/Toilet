@@ -61,10 +61,10 @@ if ReplicatedStorage.IsLobby.Value == true then
     print("IsLobby")
     if not Character then return end
 
-    openShopFrame(true)
-    autoSellSettings()
-    buyUnits()
-    openShopFrame(false)
+    -- openShopFrame(true)
+    -- autoSellSettings()
+    -- buyUnits()
+    -- openShopFrame(false)
 
     ReplicatedStorage.CanTrade.Value = false
     Character.HumanoidRootPart.CFrame = workspace.Lifts.PalmParadise.Area.CFrame
