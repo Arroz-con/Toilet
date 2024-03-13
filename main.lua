@@ -21,7 +21,7 @@ local function openInventory(isbool: boolean)
 end
 
 local function openShopFrame(isbool: boolean)
-    Player.Lobby.SummonShopFrame.Visible = isbool
+    Player.PlayerGui.Lobby.SummonShopFrame.Visible = isbool
     task.wait(.1)
 end
 
