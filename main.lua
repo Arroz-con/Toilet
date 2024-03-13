@@ -22,7 +22,7 @@ end
 
 local function openShopFrame(isbool: boolean)
     Player.PlayerGui.Lobby.SummonShopFrame.Visible = isbool
-    task.wait(1)
+    task.wait(3)
 end
 
 local function getCoinsInfo()
