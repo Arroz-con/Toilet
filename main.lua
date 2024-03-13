@@ -22,7 +22,7 @@ end
 
 local function openShopFrame(isbool: boolean)
     Player.PlayerGui.Lobby.SummonShopFrame.Visible = isbool
-    task.wait(.1)
+    task.wait(1)
 end
 
 local function getCoinsInfo()
@@ -91,7 +91,6 @@ if ReplicatedStorage.IsMainGame.Value == true and ReplicatedStorage.IsLobby.Valu
 
     until Player.PlayerGui.Match.MatchFinish.MatchFinishFrame.EndOptions.PlayAgain.ButtonFrame.PlayAgainButton.Text == "Cancel Play Again"
 end
-
 
 
 --[[
